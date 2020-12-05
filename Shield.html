@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS 盾牌作业</title>
+		<style type="text/css">
+			body{
+				background:#312be2;
+			}
+			.div1{
+				width: 449px;
+				height: 502px;
+				margin: 100px auto;
+			}
+			.div1 img:nth-child(1){
+				transform: translate(-100px,-110px) rotate(33deg);
+				transition: all 1s linear;
+			}
+			.div1 img:nth-child(2){
+				transform: translate(-279px,173px) rotate(123deg);
+				transition: all 1s linear;
+			}
+			.div1 img:nth-child(3){
+				transform: translate(88px,15px) rotate(222deg);
+				transition: all 1s linear;
+			}
+			.div1 img:nth-child(4){
+				transform: translate(133px,80px) rotate(55deg);
+				transition: all 1s linear;
+			}
+			.div1:hover img{
+				transform: translate(0,0) rotate(0deg);
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div class="div1">
+			<img src="images/shield_1_01.png" />
+			<img src="images/shield_1_02.png" />
+			<img src="images/shield_1_03.png" />
+			<img src="images/shield_1_04.png" />
+			<img src="images/shield_1_05.png" />
+			<img src="images/shield_1_06.png" />
+			<img src="images/shield_1_07.png" />
+			<img src="images/shield_1_08.png" />
+			<img src="images/shield_1_09.png" />
+		</div>
+	</body>
+</html>
